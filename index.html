@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color By Parameter - User Manual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      max-height: 60px;
+      background-color: white;
+      padding: 5px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      border-bottom: 2px solid black;
+      padding-bottom: 0.3em;
+    }
+    .section {
+      margin-bottom: 2em;
+    }
+    ul, ol {
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #000000;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+    }
+    .email-button {
+      display: inline-block;
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    .email-button:hover {
+      background-color: #333;
+    }
+    img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Visual Classifier - Help</h2>
+  <a href="https://www.wbdgroup.com/" target="_blank">
+    <img src="wbd_logo.png" alt="WBD Group Logo">
+  </a>
+</header>
+
+<main>
+  <section class="section">
+    <h1>Description</h1>
+    <p>
+      The <strong>Visual Classifier Plugin</strong> for Revit is a visualization tool that enables users to color-code elements based on parameter values. It helps identify inconsistencies and ensures quick visual feedback across views. Filters and color rules are saved internally for consistent results during project reviews.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Features</h2>
+    <ul>
+      <li>Color-code elements based on parameter values across one or more categories.</li>
+      <li>Choose custom colors and patterns for each parameter value.</li>
+      <li>Filters are saved and auto-applied in views with matching categories.</li>
+      <li>Quickly identify incorrect values or misplaced elements visually.</li>
+      <li>Boosts model review efficiency through instant visual feedback.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>User Steps</h2>
+    <ol>
+      <li>Download the installer file and double-click it.</li>
+      <li>Close Revit if it is running.</li>
+      <li>Follow the prompts: <strong>Next → Next → Install → Finish</strong>.</li>
+      <li>Open Revit and navigate to <strong>WBD | Plugins</strong>.</li>
+      <li>Click the <strong>Visual Classifier</strong> plugin button.
+      
+      <li>The plugin will load your model’s patterns and open the main window.
+        <br><img src="step1.png" alt="Plugin Main Interface">
+      </li>
+      <li>Go to the <strong>Filter Setting</strong> tab:
+        <ul>
+          <li>Select one or more categories to filter by.</li>
+          <li>Choose a parameter (only shared/common parameters are listed).</li>
+          <li>Name your filter group and press <strong>Add</strong>.</li>
+        </ul>
+        <br><img src="step2.png" alt="Filter Setting Tab Example">
+      </li>
+      <li>Switch to the <strong>Color Setting</strong> tab:
+        <ul>
+          <li>Select a saved group from the list.</li>
+          <li>The plugin will show values with randomly assigned solid fill colors and patterns.</li>
+        </ul>
+        <br><img src="step3.png" alt="Color Setting Tab with Group Values">
+      </li>
+      <li>Review and confirm the color assignments.
+        <br><img src="step4.png" alt="Review Assigned Colors">
+      </li>
+      <li>Click <strong>OK</strong> to apply color filters. Click <strong>Cancel</strong> to exit without saving.</li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>Saved Quality</h2>
+    <ul>
+      <li>Identify incorrect values quickly with visual cues.</li>
+      <li>Faster model checking and better quality control.</li>
+      <li>Consistent filter application across views.</li>
+      <li>Maintain high modeling standards throughout the project.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Need Help?</h2>
+    <p>If you need assistance with the Visual Classifier plugin, click below to contact our support team.</p>
+    <a href="mailto:wbdinfo@wbdgroup.com?subject=Request%20Help%20Visual%20Classifier%20app" class="email-button">
+      Request Help
+    </a>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 WBD Group. All rights reserved.
+</footer>
+
+</body>
+</html>
